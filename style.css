@@ -334,6 +334,7 @@ hr {
 
 .link-title .about-me img {
     width: 160px;
+    height: 160px;
     border-radius: 30px;
     margin-right: 40px;
 }
@@ -344,7 +345,6 @@ hr {
 
 .link-title img {
     width: 20px;
-    height: 20px;
     margin-right: 10px;
 }
 
