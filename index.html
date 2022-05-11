@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto Flow. Acompanhamento para empresas públicas e privadas, focado no desenvolvimento de Soft Skills. Impulsione as habilidades humanas de seus colaboradores!">
+    <meta name="description"
+        content="Projeto Flow. Acompanhamento para empresas públicas e privadas, focado no desenvolvimento de Soft Skills. Impulsione as habilidades humanas de seus colaboradores!">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -13,7 +14,8 @@
     <link rel="shortcut icon" type="image/jpg" href="img/shortcut.png" />
     <meta property="og:locale" content="pt_BR">
     <meta property="og:title" content="Projeto Flow">
-    <meta property="og:description" content="Projeto Flow. Acompanhamento para empresas públicas e privadas, focado no desenvolvimento de Soft Skills. Impulsione as habilidades humanas de seus colaboradores!">
+    <meta property="og:description"
+        content="Projeto Flow. Acompanhamento para empresas públicas e privadas, focado no desenvolvimento de Soft Skills. Impulsione as habilidades humanas de seus colaboradores!">
     <meta property="og:site_name" content="Projeto Flow">
     <meta property="og:image" content="https://i.imgur.com/iGstWzV.png">
     <title>Projeto Flow</title>
@@ -162,7 +164,8 @@
                     <span class="square"></span>
                     <p>As palestras e o workshop podem ser planejados e customizados conforme as necessidades da sua
                         empresa e colaboradores</p>
-                    <a href="https://wa.me/message/6PNOA2QOGHLXG1" target="_blank"><button class="common-btn">Entre em
+                    <a href="https://api.whatsapp.com/send?phone=5516997583278&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Projeto%20Flow%20%3A)"
+                        target="_blank"><button class="common-btn">Entre em
                             contato</button></a>
                     <div class="line">
                         <span class="line-1"></span><br>
@@ -223,13 +226,13 @@
                     <h1>Entre em contato via e-mail!</h1>
                     <br>
                     <label for="name">Nome</label>
-                    <input type="text" id="name" required placeholder="Digite seu nome">
+                    <input type="text" disabled id="name" required placeholder="Digite seu nome">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" required placeholder="Digite seu email">
+                    <input type="email" disabled id="email" required placeholder="Digite seu email">
                     <label for="message">Mensagem</label>
-                    <textarea name="message" id="message" required cols="60" rows="10"
+                    <textarea name="message" disabled id="message" required cols="60" rows="10"
                         placeholder="Digite sua mensagem"></textarea>
-                    <button type="submit" class="common-btn">Enviar</button>
+                    <button type="submit" disabled class="common-btn">Enviar</button>
 
 
                 </form>
@@ -268,11 +271,18 @@
                         <p class="social"><span><img src="img/e-mail.png" alt=""></span><br><b>E-mail:</b>
                             robertaminotti.mentoria@gmail.com</p>
                         <p class="social"><span><img src="img/instagram.png" alt=""></span><br><b>Instagram:</b>
-                            https://www.instagram.com/roberta_minotti</p>
+                            <a target="_blank"
+                                href="https://www.instagram.com/roberta_minotti">https://www.instagram.com/roberta_minotti</a>
+                        </p>
                         <p class="social"><span><img src="img/linkedin.png" alt=""></span><br><b>LinkedIn:</b>
-                            https://www.linkedin.com/in/robertaminotti</p>
-                        <p class="social"><span><img src="img/whatsapp.png" alt=""></span><br><b>Telefone:</b> +55 16
-                            99758-3278
+                            <a target="_blank"
+                                href="https://www.linkedin.com/in/robertaminotti">https://www.linkedin.com/in/robertaminotti</a>
+                        </p>
+                        <p class="social"><span><img src="img/whatsapp.png" alt=""></span><br><b>Telefone:</b> <a
+                                target="_blank"
+                                href="https://api.whatsapp.com/send?phone=5516997583278&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Projeto%20Flow%20%3A)">+55
+                                16
+                                99758-3278</a>
                         </p>
                     </div>
                 </div>
@@ -280,7 +290,7 @@
         </div>
     </section>
     <div class="developed-by">
-        <p>Desenvolvido por <a href="https://www.instagram.com/_minotti2/" target="_blank">Vinicius Minotti</a>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/viniciusminotti/" target="_blank">Vinicius Minotti</a>
         </p>
     </div>
 
@@ -289,7 +299,8 @@
     <div class="social-icons">
         <a href="https://www.instagram.com/roberta_minotti/" target="_blank"><img src="img/instagram.png" alt=""></a>
         <a href="https://www.linkedin.com/in/robertaminotti/" target="_blank"><img src="img/linkedin.png" alt=""></a>
-        <a href="https://wa.me/message/6PNOA2QOGHLXG1" target="_blank"><img src="img/whatsapp.png" alt=""></a>
+        <a href="https://api.whatsapp.com/send?phone=5516997583278&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Projeto%20Flow%20%3A)"
+            target="_blank"><img src="img/whatsapp.png" alt=""></a>
     </div>
 
     <div class="arrow">
@@ -298,73 +309,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
 
-    <script>
 
-        var scroll = new SmoothScroll('a[href*="#"]');
-
-    </script>
-
-    <script>
-
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "formsite0205@gmail.com",
-                Password: "esquiloo123",
-                To: 'robertaminotti.mentoria@gmail.com',
-                From: document.getElementById("email").value,
-                Subject: "Nova Mensagem do Site Projeto Flow",
-                Body: "Nome: " + document.getElementById('name').value
-                    + "<br> E-mail: " + document.getElementById('email').value + "<br> Mensagem: "
-                    + document.getElementById('message').value
-            }).then(
-                message => alert("E-mail enviado com sucesso. \nMuito obrigada!")
-            );
-        }
-    </script>
-
-    <script>
-        class MobileNavbar {
-            constructor(mobileMenu, navList, navLinks) {
-                this.mobileMenu = document.querySelector(mobileMenu)
-                this.navList = document.querySelector(navList)
-                this.navLinks = document.querySelectorAll(navLinks)
-                this.activeClass = "active"
-                this.handleClick = this.handleClick.bind(this)
-            }
-
-            animateLinks() {
-                this.navLinks.forEach((link, index) => {
-                    link.style.animation
-                        ? (link.style.animation = "")
-                        : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`)
-                })
-            }
-
-            handleClick() {
-                this.navList.classList.toggle(this.activeClass)
-                this.mobileMenu.classList.toggle(this.activeClass)
-                this.animateLinks()
-            }
-
-            addClickEvent() {
-                this.mobileMenu.addEventListener("click", this.handleClick)
-            }
-
-            init() {
-                if (this.mobileMenu) {
-                    this.addClickEvent()
-                }
-                return this
-            }
-        }
-
-        const mobileNavbar = new MobileNavbar('.mobile-menu', '.nav-list', '.nav-list li')
-
-        mobileNavbar.init()
-
-    </script>
 </body>
 
 </html>
