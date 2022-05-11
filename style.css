@@ -354,7 +354,7 @@ hr {
 }
 
 .footer .link-title p a:hover {
-    color: #381A70
+    text-decoration: underline;
 }
 
 .link-title img {
@@ -383,7 +383,7 @@ hr {
 }
 
 .developed-by a:hover {
-    color: #381A70;
+    text-decoration: underline;
 }
 
 .social-icons {
